@@ -1,0 +1,227 @@
+body {
+
+  font-family: "Segoe UI", Arial, sans-serif;
+
+  margin: 0;
+
+  background: #f6f8fc;
+
+  color: #333;
+
+}
+
+.container {
+
+  display: grid;
+
+  grid-template-columns: 1fr 2.5fr;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  background: white;
+
+  min-height: 100vh;
+
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+
+}
+
+aside {
+
+  background: #f0f4fa;
+
+  padding: 20px;
+
+}
+
+aside h2 {
+
+  font-size: 16px;
+
+  margin-top: 20px;
+
+  border-bottom: 2px solid #ddd;
+
+  padding-bottom: 5px;
+
+  color: #2a4d9c;
+
+}
+
+aside ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 10px 0;
+
+}
+
+aside ul li {
+
+  margin: 6px 0;
+
+  background: #e6ecf7;
+
+  padding: 6px 10px;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+
+}
+
+.profile {
+
+  text-align: center;
+
+  padding: 20px 0;
+
+}
+
+.profile img {
+
+  border-radius: 50%;
+
+  width: 120px;
+
+  height: 120px;
+
+  border: 4px solid #2a4d9c;
+
+}
+
+.profile h1 {
+
+  margin: 10px 0 5px;
+
+  font-size: 22px;
+
+}
+
+.profile p {
+
+  margin: 0;
+
+  color: #2a4d9c;
+
+  font-weight: 600;
+
+}
+
+main {
+
+  padding: 30px;
+
+}
+
+main h2 {
+
+  font-size: 18px;
+
+  border-bottom: 2px solid #ddd;
+
+  padding-bottom: 5px;
+
+  margin-top: 20px;
+
+  color: #2a4d9c;
+
+}
+
+.summary {
+
+  font-size: 15px;
+
+  line-height: 1.5;
+
+  margin-bottom: 20px;
+
+}
+
+.contact p {
+
+  margin: 5px 0;
+
+  font-size: 14px;
+
+}
+
+.job {
+
+  margin-bottom: 20px;
+
+}
+
+.job h3 {
+
+  margin: 0;
+
+  font-size: 16px;
+
+}
+
+.job span {
+
+  font-size: 13px;
+
+  color: #777;
+
+}
+
+.job ul {
+
+  margin: 8px 0 0 18px;
+
+}
+
+.job ul li {
+
+  margin-bottom: 6px;
+
+}
+
+footer {
+
+  text-align: center;
+
+  font-size: 13px;
+
+  color: #555;
+
+  padding: 15px;
+
+  background: #f0f4fa;
+
+}
+
+/* Dark mode */
+
+body.dark {
+
+  background: #222;
+
+  color: #eee;
+
+}
+
+body.dark .container {
+
+  background: #333;
+
+}
+
+body.dark aside {
+
+  background: #2a2a2a;
+
+}
+
+body.dark main {
+
+  background: #3a3a3a;
+
+}
